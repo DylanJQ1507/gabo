@@ -39,7 +39,7 @@ div a {
 font-weight: 400;
 }
 .tituloPagina::first-letter{
-    color:green
+    color:yellow
 }
 .navbar{
     padding-bottom: 0 !important;
@@ -61,7 +61,7 @@ font-weight: 400;
     transition: color 0.3s ease !important;
 }
 .nav-link:hover {
-    color: green !important; /* Color del texto al pasar el cursor */
+    color: yellow !important; /* Color del texto al pasar el cursor */
 }
 .opaco{
     height: 100%;
@@ -123,10 +123,10 @@ footer {
     }
 }
 .titulo::first-letter{
-color: green;
+color: yellow;
 }
-.objetivos::first-letter{
-    color: green;
+.objetivos{
+    color: yellow;
     }
 .cuerpo{
     background-color: #2a3235 !important;
@@ -157,10 +157,10 @@ color: green;
     color: green;
   }
   .subtitulo2{
-    color: rgb(9, 255, 9);
+    color: yellow(9, 255, 9);
   }
   .subtitulo{
-    color: rgb(9, 255, 9);
+    color: yellow(9, 255, 9);
   }
   .carousel-item {
     position: relative;

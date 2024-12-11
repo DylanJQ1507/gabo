@@ -38,9 +38,7 @@ div a {
     font-family:sans-serif ;
 font-weight: 400;
 }
-.tituloPagina::first-letter{
-    color:yellow
-}
+
 .navbar{
     padding-bottom: 0 !important;
     
@@ -112,6 +110,10 @@ footer {
     .caja-individual {
         margin-bottom: 50px;
         text-align: center;
+        font-size: 16px;
+    }
+    .contenedorv{
+        padding-top: 60px !important;
     }
 }
 
@@ -119,14 +121,17 @@ footer {
     .caja-individual {
         margin-bottom: 50px;
         text-align: center;
-
+ font-size: 16px;
+    }
+    .contenedorv{
+        padding-top:60px !important;
     }
 }
 .titulo::first-letter{
 color: yellow;
 }
 .objetivos{
-    color: yellow;
+    color: black;
     }
 .cuerpo{
     background-color: #2a3235 !important;
@@ -134,8 +139,11 @@ color: yellow;
 @media (max-width: 768px) { 
     .text-container {
       width: 100%; /* El texto ocupa todo el ancho */
+      font-weight: 16px;
      
-     
+    }
+    .contenedorv{
+        padding-top:60px !important;
     }
     .subtitulo1{
         padding-left: 10px;
@@ -148,6 +156,9 @@ color: yellow;
       }
       .f{
         display: none;
+      }
+      .logo{
+        width: 60px;
       }
   }
   .card-subtitle{

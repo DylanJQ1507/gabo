@@ -45,8 +45,9 @@
       }
   
       .testimonio-title {
-        margin-top: 10px;
+        margin-top: -10px;
         font-weight: bold;
+        font-family: Roboto;
       }
   
       .testimonio-subtitle {
@@ -63,6 +64,13 @@
         color: grey;
         margin-top: 10px
       }
+      .testimonio{
+    transition: all 400ms ease ;
+}
+.testimonio:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+    }
     </style>
 </head>
 
@@ -94,7 +102,7 @@
               <a class="nav-link " aria-current="page" href="q&a.html"></i>Q&A</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="Clientes.html"></i>Clientes</a>
+              <a class="nav-link " aria-current="page" href="#clientes"></i>Clientes</a>
             </li>
             
           </ul>
@@ -257,34 +265,55 @@
         </div>
       </div>
     </section>
-    <section class="clientes" style="margin-top: 15px;">
+    <section class="clientes" id="clientes" style="margin-top: 15px;">
       <div class="container mt-5">
         <div class="scrolling-wrapper text-center">
           <div class="card testimonio text-center">
             <div class="card-body testimonio-body text-center">
-             <video class="img-fluid" width="160px" height="130px" controls>
+              <p class="card-title testimonio-title">CLIENTES</p>
+              <video class="img-fluid" width="150px" height="130px" controls>
               <source src="img/VID-20241209-WA0165.mp4">
+             </video>
+            </div>
+          </div>
+          <div class="card  testimonio text-center">
+            <div class="card-body testimonio-body text-center">
+              <p class="card-title testimonio-title">CLIENTES</p>
+              <video class="img-fluid" width="150px" height="130px" controls>
+              <source src="img/clientes6.mp4">
+             </video>
+            </div>
+          </div>
+          <div class="card testimonio text-center">
+            <div class="card-body testimonio-body text-center">
+              <p class="card-title testimonio-title">CLIENTES</p>
+             <video class="img-fluid" width="200px" height="130px" controls>
+              <source src="img/clientes7.mp4">
              </video>
             </div>
           </div>
           <div class="card testimonio text-center">
             <div class="card-body testimonio-body ">
-             <img src="img/clientes2.jpeg" class="img-fluid">
+              <p class="card-title testimonio-title">CLIENTES</p>
+              <img src="img/clientes2.jpeg" class="img-fluid"  width="200px">
             </div>
           </div>
           <div class="card testimonio text-center">
             <div class="card-body testimonio-body ">
-             <img src="img/clientes3.jpeg" class="img-fluid">
+              <p class="card-title testimonio-title">CLIENTES</p>
+             <img src="img/clientes3.jpeg" class="img-fluid" width="200px">
             </div>
           </div>
           <div class="card testimonio text-center">
             <div class="card-body testimonio-body ">
-             <img src="img/clientes4.jpeg" class="img-fluid">
+              <p class="card-title testimonio-title">CLIENTES</p>
+             <img src="img/clientes4.jpeg" class="img-fluid" width="200px">
             </div>
           </div>
           <div class="card testimonio text-center">
             <div class="card-body testimonio-body ">
-             <img src="img/clientes5.jpg" width="190px" class="img-fluid">
+              <p class="card-title testimonio-title">CLIENTES</p>
+             <img src="img/clientes5.jpg" width="176px" class="img-fluid" >
             </div>
           </div>
           
